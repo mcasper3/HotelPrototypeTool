@@ -16,5 +16,15 @@ namespace HotelPrototypeTool
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newname_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("NATE IS COOL");//aowIERgnaoWE:Ignaoeirgnao;eirgnao;EIWgioaengn
+        }
     }
 }

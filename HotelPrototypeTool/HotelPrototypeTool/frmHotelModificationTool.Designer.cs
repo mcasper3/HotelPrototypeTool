@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.newname = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -39,15 +40,27 @@
             this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hi Nate! ";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // newname
+            // 
+            this.newname.Location = new System.Drawing.Point(61, 121);
+            this.newname.Name = "newname";
+            this.newname.Size = new System.Drawing.Size(138, 34);
+            this.newname.TabIndex = 1;
+            this.newname.Text = "cooler button name";
+            this.newname.UseVisualStyleBackColor = true;
+            this.newname.Click += new System.EventHandler(this.newname_Click);
+            // 
+            // frmHotelModificationTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.newname);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmHotelModificationTool";
+            this.Text = "fghj";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -56,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button newname;
     }
 }
 
